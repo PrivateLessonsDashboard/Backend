@@ -1,5 +1,4 @@
 {
-    "name": "privatelessonsdashboardbackend",
     "type": "module",
     "private": true,
     "keywords": ["laravel", "framework"],
