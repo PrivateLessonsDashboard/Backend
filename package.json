@@ -8,9 +8,6 @@
     "commitlint": "commitlint --edit",
     "prepare": "husky"
   },
-  "lint-staged": {
-    "**/*.php": "./vendor/bin/pint"
-  },
   "devDependencies": {
     "@commitlint/cli": "^18.6.1",
     "@commitlint/config-conventional": "^18.6.2",
