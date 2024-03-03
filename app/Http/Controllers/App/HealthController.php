@@ -12,6 +12,11 @@ class HealthController extends Controller
      */
     public function __invoke(Request $request): array
     {
+
+
+
         return ['status' => 'ok'];
+
+
     }
 }
