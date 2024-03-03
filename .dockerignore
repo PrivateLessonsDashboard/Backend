@@ -1,0 +1,9 @@
+.*
+!.env
+.husky
+commitlint.config.js
+*.lock
+LICENSE
+vendor
+Dockerfile
+node_modules
