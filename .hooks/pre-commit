@@ -3,5 +3,5 @@
 # Get a list of all staged files (added or modified, but not deleted)
 STAGED_FILES=$(git diff --cached --name-only --diff-filter=AM)
 
-docker-compose exec -T php ./vendor/bin/pint $STAGED_FILES
+docker-compose exec -T laravel ./vendor/bin/pint $STAGED_FILES
 git add $STAGED_FILES
