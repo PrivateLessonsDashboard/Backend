@@ -10,6 +10,7 @@ class ApplicationSetupTest extends TestCase
 {
 
     use CreatesApplication;
+
     /**
      * A basic test example.
      */

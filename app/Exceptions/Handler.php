@@ -36,12 +36,14 @@ class Handler extends ExceptionHandler
         if (method_exists($e, 'getStatusCode')) {
             return $e->getStatusCode();
         }
+
         return $e->getCode() ?: Response::HTTP_BAD_REQUEST;
     }
 
     public function render($request, Throwable $e)
     {
         $code = $this->getCode($e);
+
         return new JsonResponse(['error' => ['message' => $e->getMessage(), 'code' => $code]], $code);
     }
 }
