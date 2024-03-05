@@ -1,0 +1,25 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "Private Lessons Dashboard",
+        "description": "Private Lessons Dashboard Api",
+        "version": "1.0"
+    },
+    "paths": {
+        "/api/v1/health": {
+            "get": {
+                "tags": [
+                    "Health"
+                ],
+                "summary": "Health check",
+                "description": "Check if API works",
+                "operationId": "af1365a7a228bc4f9f946102a0807b6d",
+                "responses": {
+                    "200": {
+                        "description": "ok"
+                    }
+                }
+            }
+        }
+    }
+}

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Facade;
 use Illuminate\Support\ServiceProvider;
+use Illuminate\View\ViewServiceProvider;
 
 return [
 
@@ -168,8 +169,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-    ])->except([
-        \Illuminate\View\ViewServiceProvider::class,
+        L5Swagger\L5SwaggerServiceProvider::class,
+        ViewServiceProvider::class
     ])->toArray(),
 
     /*

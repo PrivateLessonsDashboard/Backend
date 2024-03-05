@@ -8,7 +8,16 @@ use Illuminate\Http\Request;
 class HealthController extends Controller
 {
     /**
-     * Handle the incoming request.
+     *  @OA\Get (
+     *      path="/api/v1/health",
+     *      tags={"Health"},
+     *      summary="Health check",
+     *      description="Check if API works",
+     *     @OA\Response(
+     *      response=200,
+     *      description="ok"
+     *     )
+     *  )
      */
     public function __invoke(Request $request): array
     {
