@@ -15,7 +15,7 @@ class HealthController extends Controller
      *      description="Check if API works",
      *     @OA\Response(
      *      response=200,
-     *      description="ok"
+     *      description="{status: 'ok'}"
      *     )
      *  )
      */

@@ -16,7 +16,7 @@
                 "operationId": "af1365a7a228bc4f9f946102a0807b6d",
                 "responses": {
                     "200": {
-                        "description": "ok"
+                        "description": "{status: 'ok'}"
                     }
                 }
             }
