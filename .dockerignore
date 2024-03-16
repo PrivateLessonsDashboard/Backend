@@ -7,3 +7,5 @@ vendor
 .dockerignore
 Dockerfile
 .editorconfig
+.git
+*.md
